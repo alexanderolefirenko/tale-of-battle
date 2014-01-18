@@ -1,5 +1,24 @@
-﻿Построение начато 18.01.2014 16:27:54.
+﻿Построение начато 18.01.2014 16:37:50.
+     1>Проект "C:\Users\Levin_test\Desktop\test\tale-of-death.game\Grid\Grid.vcxproj" в узле 2 (целевые объекты build).
+     1>PrepareForBuild:
+         Создание каталога "C:\Users\Levin_test\Desktop\test\tale-of-death.game\Debug\".
+       InitializeBuildStatus:
+         Создание "Debug\Grid.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\levin_test\desktop\test\tale-of-death.game\grid\main.cpp(294): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(433): см. объявление "getenv"
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Levin_test\Desktop\test\tale-of-death.game\Debug\Grid.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Grid.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Levin_test\Desktop\test\tale-of-death.game\Debug\Grid.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Levin_test\Desktop\test\tale-of-death.game\Debug\Grid.lib" /MACHINE:X86 Debug\main.obj
+         Grid.vcxproj -> C:\Users\Levin_test\Desktop\test\tale-of-death.game\Debug\Grid.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Levin_test\Desktop\test\tale-of-death.game\Debug\Grid.exe;#1" /manifest Debug\Grid.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\Grid.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Grid.lastbuildstate".
+     1>Построение проекта "C:\Users\Levin_test\Desktop\test\tale-of-death.game\Grid\Grid.vcxproj" завершено (целевые объекты build).
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:00.02
+Затраченное время: 00:00:02.19
